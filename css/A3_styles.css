@@ -1,0 +1,143 @@
+ul {
+    font-family: "Courier New", Courier, monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    text-align:center;
+    
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+div {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 400px;
+    float:left;
+}
+
+div1 {
+    float:left;
+    margin-left: 100px;
+    clear:right;
+}
+div3 {
+    margin-right: 430px;
+    float: right;
+    clear: both;
+}
+div33 {
+    width:155px;
+    float: right;
+    clear: both;
+}
+h1 {
+    margin-left: 180px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type=text], input[type=date] {
+    width: 89%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+    color: red;  
+}
+
+div4.img {
+    float:left;
+    clear:left;
+}
+
+div4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px
+}
+
+div4 a:hover {
+    text-decoration: underline;
+}
+
+div5 {
+    float:left;
+    width:350px;
+}
+
+div6.img {
+    float:left;
+    margin-left: 150px;
+    clear:left;
+       
+}
+
+div7 {
+    margin-left: 50px;
+    float:left;
+    width:350px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+div8 {
+  display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+     
+}
